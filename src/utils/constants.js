@@ -1,0 +1,1 @@
+export const IMAGE_URL='https://3dcxallhands.s3.ap-south-1.amazonaws.com/public';
