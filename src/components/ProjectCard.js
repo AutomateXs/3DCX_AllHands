@@ -56,7 +56,7 @@ const ProjectCard = (props) => {
             <div className="card project-card">
               <div className="project-card-left-section">
                 <img
-                  src="https://static.wixstatic.com/media/65441d_fa2ecebda28246dc84beb098827bcfa5~mv2.jpg/v1/crop/x_10,y_0,w_228,h_65/fill/w_319,h_91,al_c,lg_1,q_80,enc_auto/APEXimagegen_o1.jpg"
+                  src={IMAGE_URL+imageSrc}
                   alt=""
                 />
               </div>
