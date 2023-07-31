@@ -32,8 +32,8 @@ jobs:
         with:
           context: .  # The path to the directory containing the Dockerfile
           push: true
-          tags: tanmeshb/3dcx_automate:${{ github.sha }}
+          tags: tanmeshb/3dcx_automate:latest
 
-      - name: Run Docker container
-        run: |
-          docker run -d -p 8080:1234 tanmeshb/3dcx_automate:${{ github.sha }}
+#       - name: Run Docker container
+#         run: |
+#           docker run -d -p 8080:1234 tanmeshb/3dcx_automate:latest
