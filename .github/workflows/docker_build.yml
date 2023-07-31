@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main  # Change this to your default branch if different
+      - 'feature/*'
   pull_request:
     branches:
       - main  # Change this to your default branch if different
+  workflow_dispatch:
 
 jobs:
   build_and_run:
